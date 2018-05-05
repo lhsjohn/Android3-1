@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="内部类"
+        android:textSize="20dp"
+        android:id="@+id/btn1"
+        android:paddingBottom="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="外部类"
+        android:textSize="20dp"
+        android:id="@+id/btn2"
+        android:paddingBottom="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="匿名内部类"
+        android:textSize="20dp"
+        android:id="@+id/btn3"
+        android:paddingBottom="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Activity"
+        android:textSize="20dp"
+        android:id="@+id/btn4"
+        android:paddingBottom="12dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="绑定到标签"
+        android:textSize="20dp"
+        android:id="@+id/btn5"
+        android:onClick="clickHandler"
+        android:paddingBottom="12dp"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
